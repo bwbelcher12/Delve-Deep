@@ -1,6 +1,6 @@
 # Delve Deep
 
-![a1c692eb69a8a7e417afa7a8b295a279.jpg](https://files.nuclino.com/files/903458d2-2c80-4951-a40d-704dde66cb28/a1c692eb69a8a7e417afa7a8b295a279.jpg)
+![a1c692eb69a8a7e417afa7a8b295a279.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F75576099975873618%2F&psig=AOvVaw0uRC9PXF-rjK3GNO73DWDd&ust=1670702480486000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJCerPCp7fsCFQAAAAAdAAAAABAE)
 
 ## Overview
 

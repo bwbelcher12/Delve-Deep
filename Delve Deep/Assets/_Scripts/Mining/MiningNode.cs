@@ -16,6 +16,8 @@ public class MiningNode : MonoBehaviour
     public bool beingMined;
     public bool beingMinedActively;
 
+    public GameObject minerPositions;
+
     void Awake()
     {
         _mineralMesh = transform.Find("Cone").GetComponent<MeshRenderer>();

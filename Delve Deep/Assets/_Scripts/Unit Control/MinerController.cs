@@ -36,6 +36,14 @@ public class MinerController : RTSUnitControllerScript
         }
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        if (_targetNodes.Contains(other.gameObject))
+        {
+            mining = true;
+        }
+    }
+
     private void OnTriggerExit(Collider other)
     {
         if (_targetNodes.Contains(other.gameObject))
@@ -96,7 +104,21 @@ public class MinerController : RTSUnitControllerScript
         {
             AddTarget(hit.collider.transform.gameObject);
 
-            return hit.collider.transform.position;
+            float distance = Mathf.Infinity;
+
+            Vector3 returnSpot = hit.collider.transform.position;
+
+            foreach(Transform miningSpot in hit.collider.transform)
+            {
+                float tempDist = Vector3.Distance(miningSpot.position, transform.position);
+                if(tempDist < distance)
+                {
+                    distance = tempDist;
+                    returnSpot = miningSpot.position;
+                }
+            }
+
+            return returnSpot;
         }
         else
         {

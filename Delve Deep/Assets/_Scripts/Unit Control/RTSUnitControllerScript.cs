@@ -7,6 +7,8 @@ public class RTSUnitControllerScript: MonoBehaviour
 {
     public NavMeshAgent _agent;
 
+    public bool inControlGroup;
+
     private void Awake()
     {
         _agent = GetComponent<NavMeshAgent>();
@@ -14,6 +16,8 @@ public class RTSUnitControllerScript: MonoBehaviour
 
     private void Update()
     {
+
+
         if (Input.GetMouseButtonDown(1))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

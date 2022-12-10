@@ -9,6 +9,10 @@ public class FollowUnit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_target == null)
+        {
+            return;
+        }
         transform.position = _target.position;
     }
 

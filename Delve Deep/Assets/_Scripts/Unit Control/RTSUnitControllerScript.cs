@@ -16,26 +16,45 @@ public class RTSUnitControllerScript: MonoBehaviour
 
     private void Update()
     {
-
-
+        if (Input.GetMouseButton(0))
+        {
+            AddToControlGroup();
+        }
         if (Input.GetMouseButtonDown(1))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            CastRay();
+        }
+    }
+
+    private void AddToControlGroup()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        {
+            if (hit.collider.transform.CompareTag("Unit").Equals(false))
             {
-                if (hit.collider.transform.CompareTag("Ground").Equals(false))
-                {
-                    GoToTarget(CheckHit(hit));
-                }
-                else
-                {
-                    GoToTarget(hit.point);
-                }
+                inControlGroup = false;
             }
         }
     }
 
+    private void CastRay()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        {
+            if (hit.collider.transform.CompareTag("Ground").Equals(false))
+            {
+                GoToTarget(CheckHit(hit));
+            }
+            else
+            {
+                GoToTarget(hit.point);
+            }
+        }
+    }
     public virtual void GoToTarget(Vector3 target)
     {
         _agent.destination = target;

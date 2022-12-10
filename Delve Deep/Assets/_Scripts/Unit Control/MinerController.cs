@@ -8,15 +8,23 @@ using UnityEngine.AI;
 public class MinerController : RTSUnitControllerScript
 {
     [SerializeField] List<GameObject> _targetNodes;
-    private bool mining;
+    [SerializeField] private bool mining;
     private bool destinationIsMiningNode;
 
-    public void AddTarget(GameObject node)
+    public void SetCurrentTarget(GameObject node)
     {
         if(_targetNodes.Contains(node))
         {
             return;
         }
+
+        foreach (GameObject nodeInList in _targetNodes)
+        {
+            nodeInList.GetComponent<MiningNode>().beingMinedActively = false;
+        }
+
+        _targetNodes.Clear();
+
         _targetNodes.Add(node);
     }
 
@@ -27,37 +35,31 @@ public class MinerController : RTSUnitControllerScript
 
     private void OnTriggerEnter(Collider other)
     {
-        if(_targetNodes.Contains(other.gameObject))
+        if(_targetNodes.Contains(other.gameObject.transform.parent.transform.parent.transform.gameObject))
         {
-            MiningNode node = other.gameObject.transform.GetComponent<MiningNode>();
+            MiningNode node = other.gameObject.transform.parent.transform.parent.transform.gameObject.GetComponent<MiningNode>();
+            if (node.beingMined.Equals(false))
+            {
+                StartCoroutine(Mine(node));
 
+            }
             node.beingMinedActively = true;
-            StartCoroutine(Mine(node));
-            GetComponent<NavMeshAgent>().destination = transform.position;
+            mining = true;
         }
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (_targetNodes.Contains(other.gameObject))
+        if (_targetNodes.Contains(other.gameObject.transform.parent.transform.parent.transform.gameObject))
         {
+            MiningNode node = other.gameObject.transform.parent.transform.parent.transform.gameObject.GetComponent<MiningNode>();
+            node.beingMinedActively = true;
             mining = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (_targetNodes.Contains(other.gameObject))
-        {
-            MiningNode node = other.gameObject.transform.GetComponent<MiningNode>();
-
-            node.beingMinedActively = false;
         }
     }
 
     IEnumerator Mine (MiningNode node)
     {
-        mining = true;
         node.beingMined = true;
 
         if (node.hasBeenMined == false && node.beingMined == true)
@@ -67,7 +69,7 @@ public class MinerController : RTSUnitControllerScript
             float percentage;
             while (time < node.mineralMiningTime)
             {
-                while (mining == false)
+                while (mining == false || node.beingMinedActively == false)
                 {
                     yield return null;
                 }
@@ -110,7 +112,7 @@ public class MinerController : RTSUnitControllerScript
         {
             destinationIsMiningNode = true;
 
-            AddTarget(hit.collider.transform.gameObject);
+            SetCurrentTarget(hit.collider.transform.gameObject);
 
             float distance = Mathf.Infinity;
 
@@ -130,6 +132,12 @@ public class MinerController : RTSUnitControllerScript
         }
         else
         {
+            foreach (GameObject nodeInList in _targetNodes)
+            {
+                nodeInList.GetComponent<MiningNode>().beingMinedActively = false;
+            }
+            _targetNodes.Clear();
+
             return base.CheckHit(hit);
         }
        

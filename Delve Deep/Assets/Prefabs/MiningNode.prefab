@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 8943376646028704529}
   m_Layer: 0
   m_Name: Unit Position 8
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 2169116976190447684}
   m_Layer: 0
   m_Name: Unit Position 2
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 3140893089700148809}
   m_Layer: 0
   m_Name: Unit Position 7
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 2747285499461013546}
   m_Layer: 0
   m_Name: Unit Position 3
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1085,7 +1085,7 @@ GameObject:
   - component: {fileID: 6246574807967415234}
   m_Layer: 0
   m_Name: Unit Position 5
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1131,7 +1131,7 @@ GameObject:
   - component: {fileID: 6478774374672270998}
   m_Layer: 0
   m_Name: Unit Position 6
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 1850876628984515707}
   m_Layer: 0
   m_Name: Unit Position 4
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1223,7 +1223,7 @@ GameObject:
   - component: {fileID: 5913327096824362884}
   m_Layer: 0
   m_Name: Unit Position 1
-  m_TagString: MiningNode
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

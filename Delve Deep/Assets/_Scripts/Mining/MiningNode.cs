@@ -1,12 +1,13 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MiningNode : MonoBehaviour
 {
     public string mineralType;
     public float mineralValue;
-    public float mineralMiningTime;
+    public float baseMiningTime;
 
     private MeshRenderer _mineralMesh;
     [SerializeField] private TMPro.TMP_Text progressPrefab;
@@ -17,6 +18,8 @@ public class MiningNode : MonoBehaviour
     public bool beingMinedActively;
 
     public GameObject minerPositions;
+
+    public List<GameObject> miners;
 
     void Awake()
     {
@@ -40,6 +43,11 @@ public class MiningNode : MonoBehaviour
     }
     IEnumerator Cleanup()
     {
+        foreach (GameObject miner in miners.ToArray())
+        {
+            miner.GetComponent<MinerController>().RemoveNode(gameObject);
+        }
+
         float time = 0;
         while(time < 2)
         {
@@ -51,4 +59,39 @@ public class MiningNode : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+
+    public IEnumerator Mine()
+    {
+        beingMined = true;
+        float mineralMiningTime = baseMiningTime;
+
+        if (hasBeenMined == false && beingMined == true)
+        {
+            beingMined = true;
+            float time = 0;
+            float percentage;
+            while (time < mineralMiningTime)
+            {
+                mineralMiningTime = baseMiningTime * (1 - ((miners.Count - 1) / 10));
+                while (beingMinedActively == false)
+                {
+                    yield return null;
+                }
+                time += Time.deltaTime;
+                percentage = (time / mineralMiningTime) * 100;
+                progressText.text = String.Format("{0:0}", percentage) + "%";
+                yield return null;
+            }
+
+            
+
+            FullyMined();
+
+            yield return null;
+        }
+        else
+        {
+            yield return null;
+        }
+    }
 }

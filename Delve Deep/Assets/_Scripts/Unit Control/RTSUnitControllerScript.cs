@@ -9,52 +9,16 @@ public class RTSUnitControllerScript: MonoBehaviour
 
     public bool inControlGroup;
 
+    public Color baseColor;
+    private GameObject UnitSelectionManager;
+
     private void Awake()
     {
+        UnitSelectionManager = GameObject.Find("UnitSelectionManager");
         _agent = GetComponent<NavMeshAgent>();
+        baseColor = GetComponent<Renderer>().material.GetColor("_BaseColor");
     }
 
-    private void Update()
-    {
-        if (Input.GetMouseButton(0))
-        {
-            AddToControlGroup();
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            CastRay();
-        }
-    }
-
-    private void AddToControlGroup()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-        {
-            if (hit.collider.transform.CompareTag("Unit").Equals(false))
-            {
-                inControlGroup = false;
-            }
-        }
-    }
-
-    private void CastRay()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-        {
-            if (hit.collider.transform.CompareTag("Ground").Equals(false))
-            {
-                GoToTarget(CheckHit(hit));
-            }
-            else
-            {
-                GoToTarget(hit.point);
-            }
-        }
-    }
     public virtual void GoToTarget(Vector3 target)
     {
         _agent.destination = target;

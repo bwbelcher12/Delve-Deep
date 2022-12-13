@@ -1,0 +1,196 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public class UnitSelectionManager: MonoBehaviour
+{
+    [SerializeField] List<GameObject> selectedUnits = new List<GameObject>();
+    [SerializeField] Collider[] hitColliders;
+    [SerializeField] private GameObject selectionBoxPrefab;
+    [SerializeField] private LayerMask m_LayerMask;
+
+    [SerializeField] private Vector3 mouseStartWorldPos;
+    [SerializeField] private Vector3 mouseEndWorldPos;
+
+    private Camera cam;
+    bool m_Started;
+
+    private void Start()
+    {
+        //Use this to ensure that the Gizmos are being drawn when in Play Mode.
+        m_Started = true;
+        GameObject selectionBox = Instantiate(selectionBoxPrefab, transform.position, Quaternion.identity);
+        selectionBox.transform.parent = transform;
+        cam = Camera.main;
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && Input.GetKey(KeyCode.LeftControl))
+        {
+            ControlSpecificUnit();
+            return;
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            foreach (GameObject unit in selectedUnits.ToArray())
+            {
+                unit.GetComponent<RTSUnitControllerScript>().inControlGroup = false;
+                unit.GetComponent<Renderer>().material.SetColor("_BaseColor", unit.GetComponent<RTSUnitControllerScript>().baseColor);
+                selectedUnits.Remove(unit);
+            }
+
+            ControlSingleUnit();
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                mouseStartWorldPos = hit.point;
+            }
+        }   
+        if (Input.GetMouseButtonDown(1))
+        {
+            CastRay();
+            return;
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                mouseEndWorldPos = hit.point;
+            }
+            transform.position = new Vector3((mouseStartWorldPos.x + mouseEndWorldPos.x) / 2, (mouseStartWorldPos.y + mouseEndWorldPos.y) / 2, (mouseStartWorldPos.z + mouseEndWorldPos.z) / 2);
+            transform.localScale = mouseStartWorldPos - mouseEndWorldPos + new Vector3(0, 1, 0);
+            MyCollisions();
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            Array.Clear(hitColliders, 0 , hitColliders.Length);
+            return;
+        }
+    }
+
+    private void ControlSingleUnit()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        { 
+            //If player clicks on a unit, add to selectedUnits list and set inControlGroup flag to true, then return;
+            if (hit.collider.transform.CompareTag("Unit").Equals(true))
+            {
+                GameObject selectedUnit = hit.collider.gameObject;
+
+                if(selectedUnits.Contains(selectedUnit))
+                {
+                    return;
+                }
+
+                hit.collider.transform.GetComponent<RTSUnitControllerScript>().inControlGroup = true;
+                selectedUnits.Add(hit.collider.gameObject);
+
+                hit.collider.transform.GetComponent<Renderer>().material.SetColor("_BaseColor", Color.green);
+                return;
+            }
+        }
+    }
+
+    private void ControlSpecificUnit()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        {
+            //If player clicks on a unit, add to selectedUnits list and set inControlGroup flag to true, then return;
+            if (hit.collider.transform.CompareTag("Unit").Equals(true))
+            {
+                GameObject selectedUnit = hit.collider.gameObject;
+
+                if (selectedUnits.Contains(selectedUnit))
+                {
+                    return;
+                }
+
+                hit.collider.transform.GetComponent<RTSUnitControllerScript>().inControlGroup = true;
+                selectedUnits.Add(selectedUnit);
+
+                hit.collider.transform.GetComponent<Renderer>().material.SetColor("_BaseColor", Color.green);
+                return;
+            }
+        }
+    }
+
+    private void CastRay()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        {
+            StartCoroutine(QueueGoToTarget(hit));
+        }
+    }
+
+    IEnumerator QueueGoToTarget(RaycastHit hit)
+    {
+        foreach (GameObject unit in selectedUnits.ToArray())
+        {
+            RTSUnitControllerScript rtsController = unit.GetComponent<RTSUnitControllerScript>();
+            if (hit.collider.transform.CompareTag("Ground").Equals(false))
+            {
+                rtsController.GoToTarget(rtsController.CheckHit(hit));
+            }
+            else
+            {
+                rtsController.GoToTarget(hit.point);
+            }
+            yield return null;
+        }
+
+        yield return null;
+    }
+
+    void MyCollisions()
+    {
+        //Use the OverlapBox to detect if there are any other colliders within this box area.
+        //Use the GameObject's centre, half the size (as a radius) and rotation. This creates an invisible box around your GameObject.
+        hitColliders = Physics.OverlapBox(transform.position, new Vector3(Mathf.Abs(transform.localScale.x), Mathf.Abs(transform.localScale.y), Mathf.Abs(transform.localScale.z)) / 2, Quaternion.identity, m_LayerMask);
+        int i = 0;
+
+        //Check when there is a new collider coming into contact with the box
+        while (i < hitColliders.Length)
+        {
+            if (hitColliders[i].CompareTag("Unit").Equals(true))
+            {
+                GameObject selectedUnit = hitColliders[i].gameObject;
+                if(selectedUnits.Contains(hitColliders[i].gameObject))
+                {
+                    return;
+                }
+
+                hitColliders[i].gameObject.GetComponent<RTSUnitControllerScript>().inControlGroup = true;
+                selectedUnits.Add(selectedUnit);
+
+                hitColliders[i].gameObject.GetComponent<Renderer>().material.SetColor("_BaseColor", Color.green);
+                return;
+            }
+            i++;
+        }
+
+        
+    }
+
+    //Draw the Box Overlap as a gizmo to show where it currently is testing. Click the Gizmos button to see this
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        //Check that it is being run in Play Mode, so it doesn't try to draw this in Editor mode
+        if (m_Started)
+            //Draw a cube where the OverlapBox is (positioned where your GameObject is as well as a size)
+            Gizmos.DrawWireCube(transform.position, transform.localScale);
+    }
+}

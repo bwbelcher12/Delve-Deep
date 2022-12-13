@@ -8,8 +8,8 @@ using UnityEngine.AI;
 public class MinerController : RTSUnitControllerScript
 {
     [SerializeField] List<GameObject> _targetNodes;
-    [SerializeField] private bool mining;
     private bool destinationIsMiningNode;
+    private Transform closestSpot;
 
     public void SetCurrentTarget(GameObject node)
     {
@@ -26,6 +26,7 @@ public class MinerController : RTSUnitControllerScript
         _targetNodes.Clear();
 
         _targetNodes.Add(node);
+        node.GetComponent<MiningNode>().miners.Add(gameObject);
     }
 
     public void RemoveNode(GameObject node)
@@ -40,11 +41,9 @@ public class MinerController : RTSUnitControllerScript
             MiningNode node = other.gameObject.transform.parent.transform.parent.transform.gameObject.GetComponent<MiningNode>();
             if (node.beingMined.Equals(false))
             {
-                StartCoroutine(Mine(node));
-
+                StartCoroutine(node.Mine());
             }
             node.beingMinedActively = true;
-            mining = true;
         }
     }
 
@@ -54,42 +53,6 @@ public class MinerController : RTSUnitControllerScript
         {
             MiningNode node = other.gameObject.transform.parent.transform.parent.transform.gameObject.GetComponent<MiningNode>();
             node.beingMinedActively = true;
-            mining = true;
-        }
-    }
-
-    IEnumerator Mine (MiningNode node)
-    {
-        node.beingMined = true;
-
-        if (node.hasBeenMined == false && node.beingMined == true)
-        {
-            node.beingMined = true;
-            float time = 0;
-            float percentage;
-            while (time < node.mineralMiningTime)
-            {
-                while (mining == false || node.beingMinedActively == false)
-                {
-                    yield return null;
-                }
-                time += Time.deltaTime;
-                percentage = (time / node.mineralMiningTime) * 100;
-                node.progressText.text = String.Format("{0:0}", percentage) + "%";
-                yield return null;
-            }
-
-            
-
-            node.FullyMined();
-
-            RemoveNode(node.gameObject);
-
-            yield return null;
-        }
-        else
-        {
-            yield return null;
         }
     }
 
@@ -99,15 +62,13 @@ public class MinerController : RTSUnitControllerScript
         if (destinationIsMiningNode.Equals(false))
         {
             _targetNodes.Clear();
+            closestSpot = transform;
         }
 
     }
 
     public override Vector3 CheckHit(RaycastHit hit)
     {
-        mining = false;
-
-
         if (hit.collider.transform.CompareTag("MiningNode").Equals(true))
         {
             destinationIsMiningNode = true;
@@ -116,23 +77,32 @@ public class MinerController : RTSUnitControllerScript
 
             float distance = Mathf.Infinity;
 
-            Vector3 returnSpot = hit.collider.transform.position;
+            Vector3 returnSpot = transform.position;
+            closestSpot = hit.collider.transform.GetComponent<MiningNode>().minerPositions.transform;
 
             foreach(Transform miningSpot in hit.collider.transform.GetComponent<MiningNode>().minerPositions.transform)
             {
+                //Exclude spot from loop if it is already taken
+                if (miningSpot.GetComponent<MinerPosition>().availiable == false)
+                {
+                    continue;
+                }
+
                 float tempDist = Vector3.Distance(miningSpot.position, transform.position);
                 if(tempDist < distance)
                 {
                     distance = tempDist;
                     returnSpot = miningSpot.position;
+                    closestSpot = miningSpot;
                 }
             }
+            closestSpot.GetComponent<MinerPosition>().availiable = false;
 
             return returnSpot;
         }
         else
         {
-            foreach (GameObject nodeInList in _targetNodes)
+            foreach (GameObject nodeInList in _targetNodes.ToArray())
             {
                 nodeInList.GetComponent<MiningNode>().beingMinedActively = false;
             }

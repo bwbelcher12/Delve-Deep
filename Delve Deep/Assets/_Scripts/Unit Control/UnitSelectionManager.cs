@@ -9,9 +9,13 @@ public class UnitSelectionManager: MonoBehaviour
     [SerializeField] Collider[] hitColliders;
     [SerializeField] private GameObject selectionBoxPrefab;
     [SerializeField] private LayerMask m_LayerMask;
+    [SerializeField] private RectTransform selectionAreaTransform;
 
-    [SerializeField] private Vector3 mouseStartWorldPos;
-    [SerializeField] private Vector3 mouseEndWorldPos;
+    private Vector3 mouseStartWorldPos;
+    private Vector3 mouseEndWorldPos;
+    private Vector3 mouseStartScreenPos;
+    private Vector3 mouseEndScreenPos;
+
 
     private Camera cam;
     bool m_Started;
@@ -20,9 +24,8 @@ public class UnitSelectionManager: MonoBehaviour
     {
         //Use this to ensure that the Gizmos are being drawn when in Play Mode.
         m_Started = true;
-        GameObject selectionBox = Instantiate(selectionBoxPrefab, transform.position, Quaternion.identity);
-        selectionBox.transform.parent = transform;
         cam = Camera.main;
+        selectionAreaTransform.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -34,6 +37,8 @@ public class UnitSelectionManager: MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
+            selectionAreaTransform.gameObject.SetActive(true);
+
             foreach (GameObject unit in selectedUnits.ToArray())
             {
                 unit.GetComponent<RTSUnitControllerScript>().inControlGroup = false;
@@ -47,6 +52,7 @@ public class UnitSelectionManager: MonoBehaviour
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 mouseStartWorldPos = hit.point;
+                mouseStartScreenPos = Input.mousePosition;
             }
         }   
         if (Input.GetMouseButtonDown(1))
@@ -62,7 +68,13 @@ public class UnitSelectionManager: MonoBehaviour
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 mouseEndWorldPos = hit.point;
+                mouseEndScreenPos = Input.mousePosition;
+
             }
+
+            selectionAreaTransform.position = new Vector3((mouseStartScreenPos.x + mouseEndScreenPos.x) / 2, (mouseStartScreenPos.y + mouseEndScreenPos.y) / 2, (mouseStartScreenPos.z + mouseEndScreenPos.z) / 2);
+            selectionAreaTransform.localScale = mouseStartScreenPos - mouseEndScreenPos;
+
             transform.position = new Vector3((mouseStartWorldPos.x + mouseEndWorldPos.x) / 2, (mouseStartWorldPos.y + mouseEndWorldPos.y) / 2, (mouseStartWorldPos.z + mouseEndWorldPos.z) / 2);
             transform.localScale = mouseStartWorldPos - mouseEndWorldPos + new Vector3(0, 1, 0);
             MyCollisions();
@@ -70,6 +82,7 @@ public class UnitSelectionManager: MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
+            selectionAreaTransform.gameObject.SetActive(false);
             Array.Clear(hitColliders, 0 , hitColliders.Length);
             return;
         }
@@ -102,6 +115,8 @@ public class UnitSelectionManager: MonoBehaviour
 
     private void ControlSpecificUnit()
     {
+        
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
@@ -156,6 +171,13 @@ public class UnitSelectionManager: MonoBehaviour
 
     void MyCollisions()
     {
+        foreach (GameObject unit in selectedUnits.ToArray())
+        {
+            unit.GetComponent<RTSUnitControllerScript>().inControlGroup = false;
+            unit.GetComponent<Renderer>().material.SetColor("_BaseColor", unit.GetComponent<RTSUnitControllerScript>().baseColor);
+            selectedUnits.Remove(unit);
+        }
+
         //Use the OverlapBox to detect if there are any other colliders within this box area.
         //Use the GameObject's centre, half the size (as a radius) and rotation. This creates an invisible box around your GameObject.
         hitColliders = Physics.OverlapBox(transform.position, new Vector3(Mathf.Abs(transform.localScale.x), Mathf.Abs(transform.localScale.y), Mathf.Abs(transform.localScale.z)) / 2, Quaternion.identity, m_LayerMask);
@@ -169,14 +191,14 @@ public class UnitSelectionManager: MonoBehaviour
                 GameObject selectedUnit = hitColliders[i].gameObject;
                 if(selectedUnits.Contains(hitColliders[i].gameObject))
                 {
-                    return;
+                    i++;
+                    continue;
                 }
 
                 hitColliders[i].gameObject.GetComponent<RTSUnitControllerScript>().inControlGroup = true;
                 selectedUnits.Add(selectedUnit);
 
                 hitColliders[i].gameObject.GetComponent<Renderer>().material.SetColor("_BaseColor", Color.green);
-                return;
             }
             i++;
         }

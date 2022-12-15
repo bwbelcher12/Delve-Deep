@@ -2,29 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using TRavljen.UnitFormation;
+using TRavljen.UnitFormation.Formations;
+
+
 
 public class UnitSelectionManager: MonoBehaviour
 {
     [SerializeField] List<GameObject> selectedUnits = new List<GameObject>();
     [SerializeField] Collider[] hitColliders;
-    [SerializeField] private GameObject selectionBoxPrefab;
     [SerializeField] private LayerMask m_LayerMask;
     [SerializeField] private RectTransform selectionAreaTransform;
+    [SerializeField] private float unitSpacing;
 
     private Vector3 mouseStartWorldPos;
     private Vector3 mouseEndWorldPos;
     private Vector3 mouseStartScreenPos;
     private Vector3 mouseEndScreenPos;
 
-
-    private Camera cam;
     bool m_Started;
+
 
     private void Start()
     {
         //Use this to ensure that the Gizmos are being drawn when in Play Mode.
         m_Started = true;
-        cam = Camera.main;
         selectionAreaTransform.gameObject.SetActive(false);
     }
 
@@ -76,7 +78,7 @@ public class UnitSelectionManager: MonoBehaviour
             selectionAreaTransform.localScale = mouseStartScreenPos - mouseEndScreenPos;
 
             transform.position = new Vector3((mouseStartWorldPos.x + mouseEndWorldPos.x) / 2, (mouseStartWorldPos.y + mouseEndWorldPos.y) / 2, (mouseStartWorldPos.z + mouseEndWorldPos.z) / 2);
-            transform.localScale = mouseStartWorldPos - mouseEndWorldPos + new Vector3(0, 1, 0);
+            transform.localScale = mouseStartWorldPos - (mouseEndWorldPos + new Vector3(0, 1, 0));
             MyCollisions();
         }
 
@@ -152,6 +154,20 @@ public class UnitSelectionManager: MonoBehaviour
 
     IEnumerator QueueGoToTarget(RaycastHit hit)
     {
+        List<Vector3> currentPositions = new();
+
+        foreach (GameObject unit in selectedUnits.ToArray())
+        {
+            currentPositions.Add(unit.transform.position);
+        }
+
+
+
+        RectangleFormation formation = new RectangleFormation((int)Math.Floor(Math.Sqrt(selectedUnits.Count)), unitSpacing, true); ;
+
+        UnitsFormationPositions calculatedPositions = FormationPositioner.GetPositions(currentPositions, formation, hit.point);
+
+        int i = 0;
         foreach (GameObject unit in selectedUnits.ToArray())
         {
             RTSUnitControllerScript rtsController = unit.GetComponent<RTSUnitControllerScript>();
@@ -161,12 +177,11 @@ public class UnitSelectionManager: MonoBehaviour
             }
             else
             {
-                rtsController.GoToTarget(hit.point);
+                rtsController.GoToTarget(calculatedPositions.UnitPositions[i]);
             }
+            i++;
             yield return null;
         }
-
-        yield return null;
     }
 
     void MyCollisions()
@@ -215,4 +230,5 @@ public class UnitSelectionManager: MonoBehaviour
             //Draw a cube where the OverlapBox is (positioned where your GameObject is as well as a size)
             Gizmos.DrawWireCube(transform.position, transform.localScale);
     }
+
 }

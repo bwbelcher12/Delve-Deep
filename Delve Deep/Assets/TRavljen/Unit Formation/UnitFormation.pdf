@@ -1,0 +1,5621 @@
+%PDF-1.7
+%This document was created using the 'PDF Documentation' Unity Asset
+%The asset can be found in https://assetstore.unity.com/packages/slug/179688
+1 0 obj
+<<
+/Type /Catalog
+%/OpenAction
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 11
+/Kids [378 0 R 379 0 R 380 0 R 381 0 R 280 0 R 281 0 R 282 0 R 283 0 R 284 0 R 285 0 R 286 0 R ]
+>>
+endobj
+378 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [287 0 R ]
+>>
+endobj
+381 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [288 0 R 289 0 R 290 0 R 291 0 R 292 0 R 293 0 R 377 0 R ]
+>>
+endobj
+379 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots [296 0 R 298 0 R 300 0 R 302 0 R 304 0 R 306 0 R 308 0 R 310 0 R 312 0 R 314 0 R 316 0 R 318 0 R 320 0 R 322 0 R 324 0 R 326 0 R 328 0 R 330 0 R 332 0 R 334 0 R 336 0 R 338 0 R 340 0 R 342 0 R 344 0 R 346 0 R 348 0 R 350 0 R 352 0 R 354 0 R 356 0 R 358 0 R 360 0 R 362 0 R 364 0 R 366 0 R 368 0 R ]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [294 0 R 295 0 R 297 0 R 299 0 R 301 0 R 303 0 R 305 0 R 307 0 R 309 0 R 311 0 R 313 0 R 315 0 R 317 0 R 319 0 R 321 0 R 323 0 R 325 0 R 327 0 R 329 0 R 331 0 R 333 0 R 335 0 R 337 0 R 339 0 R 341 0 R 343 0 R 345 0 R 347 0 R 349 0 R 351 0 R 353 0 R 355 0 R 357 0 R 359 0 R 361 0 R 363 0 R 365 0 R 367 0 R 375 0 R ]
+>>
+endobj
+380 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots [370 0 R 372 0 R 374 0 R ]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [369 0 R 371 0 R 373 0 R 376 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier-Oblique
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+>>
+endobj
+280 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 273 0 R ]
+>>
+endobj
+281 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 77 0 R 78 0 R 79 0 R 80 0 R 81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R 93 0 R 94 0 R 95 0 R 96 0 R 97 0 R 98 0 R 274 0 R ]
+>>
+endobj
+282 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [99 0 R 100 0 R 101 0 R 102 0 R 103 0 R 104 0 R 105 0 R 106 0 R 107 0 R 108 0 R 109 0 R 110 0 R 111 0 R 112 0 R 113 0 R 114 0 R 115 0 R 116 0 R 117 0 R 118 0 R 119 0 R 120 0 R 121 0 R 122 0 R 123 0 R 124 0 R 125 0 R 126 0 R 127 0 R 128 0 R 129 0 R 130 0 R 131 0 R 132 0 R 133 0 R 134 0 R 135 0 R 136 0 R 137 0 R 138 0 R 139 0 R 140 0 R 141 0 R 275 0 R ]
+>>
+endobj
+283 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [142 0 R 143 0 R 144 0 R 145 0 R 146 0 R 147 0 R 148 0 R 149 0 R 150 0 R 151 0 R 152 0 R 153 0 R 154 0 R 155 0 R 156 0 R 157 0 R 158 0 R 159 0 R 160 0 R 161 0 R 162 0 R 163 0 R 164 0 R 165 0 R 166 0 R 167 0 R 168 0 R 169 0 R 170 0 R 171 0 R 172 0 R 173 0 R 174 0 R 175 0 R 176 0 R 177 0 R 178 0 R 179 0 R 180 0 R 181 0 R 182 0 R 276 0 R ]
+>>
+endobj
+284 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [183 0 R 184 0 R 185 0 R 186 0 R 187 0 R 188 0 R 189 0 R 190 0 R 191 0 R 192 0 R 193 0 R 194 0 R 195 0 R 196 0 R 197 0 R 198 0 R 199 0 R 200 0 R 201 0 R 202 0 R 203 0 R 204 0 R 205 0 R 206 0 R 207 0 R 208 0 R 209 0 R 210 0 R 211 0 R 212 0 R 213 0 R 214 0 R 215 0 R 216 0 R 217 0 R 218 0 R 219 0 R 220 0 R 221 0 R 277 0 R ]
+>>
+endobj
+285 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [222 0 R 223 0 R 224 0 R 225 0 R 226 0 R 227 0 R 228 0 R 229 0 R 230 0 R 231 0 R 232 0 R 233 0 R 234 0 R 235 0 R 236 0 R 237 0 R 238 0 R 239 0 R 240 0 R 241 0 R 242 0 R 243 0 R 244 0 R 245 0 R 246 0 R 247 0 R 248 0 R 249 0 R 250 0 R 251 0 R 252 0 R 253 0 R 254 0 R 255 0 R 256 0 R 257 0 R 258 0 R 259 0 R 260 0 R 261 0 R 262 0 R 263 0 R 264 0 R 265 0 R 278 0 R ]
+>>
+endobj
+286 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Annots []
+/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> /ProcSet [/PDF /ImageB/ImageC/ImageI] /XObject << /Im1 6 0 R /Im2 7 0 R /Im3 8 0 R >> >>
+/MediaBox [0 0 630 891]
+/Contents [266 0 R 267 0 R 268 0 R 269 0 R 270 0 R 271 0 R 272 0 R 279 0 R ]
+>>
+endobj
+287 0 obj
+<</Length 101>>
+stream
+BT
+/F3 40 Tf
+194 614 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(UnitFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+288 0 obj
+<</Length 100>>
+stream
+BT
+/F3 30 Tf
+245 830 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(Introduction) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+289 0 obj
+<</Length 179>>
+stream
+BT
+/F3 15 Tf
+50 780 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(This package is a simple helper to calculate positions of the units\056 To start using it in) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+290 0 obj
+<</Length 178>>
+stream
+BT
+/F3 15 Tf
+50 762 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(your own code\054 first you must add "using TRavljen\056UnitFormation" at the top of the C#) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+291 0 obj
+<</Length 178>>
+stream
+BT
+/F3 15 Tf
+50 744 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(file\056 From there you can start using the "FormationPositioner" class that will calculate) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+292 0 obj
+<</Length 177>>
+stream
+BT
+/F3 15 Tf
+50 726 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(the position based on the formation your provide\056 You can use of the existing ones that) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+293 0 obj
+<</Length 148>>
+stream
+BT
+/F3 15 Tf
+50 708 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(can be found in "Unit Formation/Scripts/Formations/" path\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+294 0 obj
+<</Length 105>>
+stream
+BT
+/F3 30 Tf
+210 830 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(Table of Contents) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+295 0 obj
+<</Length 389>>
+stream
+BT
+/F1 10 Tf
+30 780 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(Table of Contents\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056I) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+296 0 obj
+<</Subtype/Link
+/Rect[0 0 0 0]
+/BS <</W 0>>
+/F 4
+/Dest[1 0 R /XYZ 0 1 0]
+/StructParent 0>>
+endobj
+299 0 obj
+<</Length 392>>
+stream
+BT
+/F1 10 Tf
+30 740 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(Script Reference\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0561) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+300 0 obj
+<</Subtype/Link
+/Rect[30 737 126 750]
+/BS <</W 0>>
+/F 4
+/Dest[280 0 R /XYZ 0 891 0]
+/StructParent 0>>
+endobj
+301 0 obj
+<</Length 369>>
+stream
+BT
+/F1 10 Tf
+42 720 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0561) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+302 0 obj
+<</Subtype/Link
+/Rect[42 717 174 730]
+/BS <</W 0>>
+/F 4
+/Dest[280 0 R /XYZ 30 765 0]
+/StructParent 0>>
+endobj
+303 0 obj
+<</Length 367>>
+stream
+BT
+/F1 10 Tf
+54 700 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(FormationPositioner\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0561) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+304 0 obj
+<</Subtype/Link
+/Rect[54 697 168 710]
+/BS <</W 0>>
+/F 4
+/Dest[280 0 R /XYZ 60 643 0]
+/StructParent 0>>
+endobj
+305 0 obj
+<</Length 359>>
+stream
+BT
+/F1 10 Tf
+66 680 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(GetAlignedPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0561) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+306 0 obj
+<</Subtype/Link
+/Rect[66 677 180 690]
+/BS <</W 0>>
+/F 4
+/Dest[280 0 R /XYZ 90 451 0]
+/StructParent 0>>
+endobj
+307 0 obj
+<</Length 380>>
+stream
+BT
+/F1 10 Tf
+66 660 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0562) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+308 0 obj
+<</Subtype/Link
+/Rect[66 657 138 670]
+/BS <</W 0>>
+/F 4
+/Dest[281 0 R /XYZ 90 880 0]
+/StructParent 0>>
+endobj
+309 0 obj
+<</Length 350>>
+stream
+BT
+/F1 10 Tf
+66 640 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(RotatePointAroundPivot\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+310 0 obj
+<</Subtype/Link
+/Rect[66 637 198 650]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 90 30 0]
+/StructParent 0>>
+endobj
+311 0 obj
+<</Length 355>>
+stream
+BT
+/F1 10 Tf
+54 620 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(UnitsFormationPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0562) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+312 0 obj
+<</Subtype/Link
+/Rect[54 617 192 630]
+/BS <</W 0>>
+/F 4
+/Dest[281 0 R /XYZ 60 606 0]
+/StructParent 0>>
+endobj
+313 0 obj
+<</Length 347>>
+stream
+BT
+/F1 10 Tf
+66 600 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(UnitsFormationPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0562) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+314 0 obj
+<</Subtype/Link
+/Rect[66 597 204 610]
+/BS <</W 0>>
+/F 4
+/Dest[281 0 R /XYZ 90 512 0]
+/StructParent 0>>
+endobj
+315 0 obj
+<</Length 377>>
+stream
+BT
+/F1 10 Tf
+66 580 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(UnitPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0562) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+316 0 obj
+<</Subtype/Link
+/Rect[66 577 144 590]
+/BS <</W 0>>
+/F 4
+/Dest[281 0 R /XYZ 90 366 0]
+/StructParent 0>>
+endobj
+317 0 obj
+<</Length 383>>
+stream
+BT
+/F1 10 Tf
+66 560 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(FacingAngle\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0562) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+318 0 obj
+<</Subtype/Link
+/Rect[66 557 132 570]
+/BS <</W 0>>
+/F 4
+/Dest[281 0 R /XYZ 90 222 0]
+/StructParent 0>>
+endobj
+319 0 obj
+<</Length 402>>
+stream
+BT
+/F1 10 Tf
+42 540 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(Formations\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0562) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+320 0 obj
+<</Subtype/Link
+/Rect[42 537 102 550]
+/BS <</W 0>>
+/F 4
+/Dest[281 0 R /XYZ 30 128 0]
+/StructParent 0>>
+endobj
+321 0 obj
+<</Length 331>>
+stream
+BT
+/F1 10 Tf
+54 520 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0563) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+322 0 obj
+<</Subtype/Link
+/Rect[54 517 252 530]
+/BS <</W 0>>
+/F 4
+/Dest[282 0 R /XYZ 60 880 0]
+/StructParent 0>>
+endobj
+323 0 obj
+<</Length 371>>
+stream
+BT
+/F1 10 Tf
+66 500 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(CircleFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0563) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+324 0 obj
+<</Subtype/Link
+/Rect[66 497 156 510]
+/BS <</W 0>>
+/F 4
+/Dest[282 0 R /XYZ 90 758 0]
+/StructParent 0>>
+endobj
+325 0 obj
+<</Length 363>>
+stream
+BT
+/F1 10 Tf
+78 480 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(CircleFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0563) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+326 0 obj
+<</Subtype/Link
+/Rect[78 477 168 490]
+/BS <</W 0>>
+/F 4
+/Dest[282 0 R /XYZ 120 614 0]
+/StructParent 0>>
+endobj
+327 0 obj
+<</Length 387>>
+stream
+BT
+/F1 10 Tf
+78 460 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(spacing\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+328 0 obj
+<</Subtype/Link
+/Rect[78 457 120 470]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 120 30 0]
+/StructParent 0>>
+endobj
+329 0 obj
+<</Length 375>>
+stream
+BT
+/F1 10 Tf
+78 440 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(circleAngle\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+330 0 obj
+<</Subtype/Link
+/Rect[78 437 144 450]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 120 30 0]
+/StructParent 0>>
+endobj
+331 0 obj
+<</Length 372>>
+stream
+BT
+/F1 10 Tf
+78 420 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0563) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+332 0 obj
+<</Subtype/Link
+/Rect[78 417 150 430]
+/BS <</W 0>>
+/F 4
+/Dest[282 0 R /XYZ 120 386 0]
+/StructParent 0>>
+endobj
+333 0 obj
+<</Length 331>>
+stream
+BT
+/F1 10 Tf
+54 400 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0563) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+334 0 obj
+<</Subtype/Link
+/Rect[54 397 252 410]
+/BS <</W 0>>
+/F 4
+/Dest[282 0 R /XYZ 60 217 0]
+/StructParent 0>>
+endobj
+335 0 obj
+<</Length 386>>
+stream
+BT
+/F1 10 Tf
+66 380 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(IFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0564) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+336 0 obj
+<</Subtype/Link
+/Rect[66 377 126 390]
+/BS <</W 0>>
+/F 4
+/Dest[283 0 R /XYZ 90 880 0]
+/StructParent 0>>
+endobj
+337 0 obj
+<</Length 372>>
+stream
+BT
+/F1 10 Tf
+78 360 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0564) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+338 0 obj
+<</Subtype/Link
+/Rect[78 357 150 370]
+/BS <</W 0>>
+/F 4
+/Dest[283 0 R /XYZ 120 724 0]
+/StructParent 0>>
+endobj
+339 0 obj
+<</Length 331>>
+stream
+BT
+/F1 10 Tf
+54 340 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0564) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+340 0 obj
+<</Subtype/Link
+/Rect[54 337 252 350]
+/BS <</W 0>>
+/F 4
+/Dest[283 0 R /XYZ 60 555 0]
+/StructParent 0>>
+endobj
+341 0 obj
+<</Length 377>>
+stream
+BT
+/F1 10 Tf
+66 320 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(LineFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0564) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+342 0 obj
+<</Subtype/Link
+/Rect[66 317 144 330]
+/BS <</W 0>>
+/F 4
+/Dest[283 0 R /XYZ 90 433 0]
+/StructParent 0>>
+endobj
+343 0 obj
+<</Length 369>>
+stream
+BT
+/F1 10 Tf
+78 300 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(LineFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0564) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+344 0 obj
+<</Subtype/Link
+/Rect[78 297 156 310]
+/BS <</W 0>>
+/F 4
+/Dest[283 0 R /XYZ 120 289 0]
+/StructParent 0>>
+endobj
+345 0 obj
+<</Length 387>>
+stream
+BT
+/F1 10 Tf
+78 280 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(spacing\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+346 0 obj
+<</Subtype/Link
+/Rect[78 277 120 290]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 120 30 0]
+/StructParent 0>>
+endobj
+347 0 obj
+<</Length 372>>
+stream
+BT
+/F1 10 Tf
+78 260 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0565) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+348 0 obj
+<</Subtype/Link
+/Rect[78 257 150 270]
+/BS <</W 0>>
+/F 4
+/Dest[284 0 R /XYZ 120 880 0]
+/StructParent 0>>
+endobj
+349 0 obj
+<</Length 331>>
+stream
+BT
+/F1 10 Tf
+54 240 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0565) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+350 0 obj
+<</Subtype/Link
+/Rect[54 237 252 250]
+/BS <</W 0>>
+/F 4
+/Dest[284 0 R /XYZ 60 711 0]
+/StructParent 0>>
+endobj
+351 0 obj
+<</Length 362>>
+stream
+BT
+/F1 10 Tf
+66 220 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(RectangleFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0565) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+352 0 obj
+<</Subtype/Link
+/Rect[66 217 174 230]
+/BS <</W 0>>
+/F 4
+/Dest[284 0 R /XYZ 90 589 0]
+/StructParent 0>>
+endobj
+353 0 obj
+<</Length 354>>
+stream
+BT
+/F1 10 Tf
+78 200 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(RectangleFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0565) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+354 0 obj
+<</Subtype/Link
+/Rect[78 197 186 210]
+/BS <</W 0>>
+/F 4
+/Dest[284 0 R /XYZ 120 445 0]
+/StructParent 0>>
+endobj
+355 0 obj
+<</Length 387>>
+stream
+BT
+/F1 10 Tf
+78 180 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(spacing\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+356 0 obj
+<</Subtype/Link
+/Rect[78 177 120 190]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 120 30 0]
+/StructParent 0>>
+endobj
+357 0 obj
+<</Length 375>>
+stream
+BT
+/F1 10 Tf
+78 160 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(centerUnits\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+358 0 obj
+<</Subtype/Link
+/Rect[78 157 144 170]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 120 30 0]
+/StructParent 0>>
+endobj
+359 0 obj
+<</Length 375>>
+stream
+BT
+/F1 10 Tf
+78 140 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(ColumnCount\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0566) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+360 0 obj
+<</Subtype/Link
+/Rect[78 137 144 150]
+/BS <</W 0>>
+/F 4
+/Dest[285 0 R /XYZ 120 880 0]
+/StructParent 0>>
+endobj
+361 0 obj
+<</Length 372>>
+stream
+BT
+/F1 10 Tf
+78 120 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0566) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+362 0 obj
+<</Subtype/Link
+/Rect[78 117 150 130]
+/BS <</W 0>>
+/F 4
+/Dest[285 0 R /XYZ 120 724 0]
+/StructParent 0>>
+endobj
+363 0 obj
+<</Length 331>>
+stream
+BT
+/F1 10 Tf
+54 100 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0566) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+364 0 obj
+<</Subtype/Link
+/Rect[54 97 252 110]
+/BS <</W 0>>
+/F 4
+/Dest[285 0 R /XYZ 60 555 0]
+/StructParent 0>>
+endobj
+365 0 obj
+<</Length 364>>
+stream
+BT
+/F1 10 Tf
+66 80 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TriangleFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0566) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+366 0 obj
+<</Subtype/Link
+/Rect[66 77 168 90]
+/BS <</W 0>>
+/F 4
+/Dest[285 0 R /XYZ 90 433 0]
+/StructParent 0>>
+endobj
+367 0 obj
+<</Length 356>>
+stream
+BT
+/F1 10 Tf
+78 60 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(TriangleFormation\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0566) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+368 0 obj
+<</Subtype/Link
+/Rect[78 57 180 70]
+/BS <</W 0>>
+/F 4
+/Dest[285 0 R /XYZ 120 289 0]
+/StructParent 0>>
+endobj
+369 0 obj
+<</Length 387>>
+stream
+BT
+/F1 10 Tf
+78 850 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(spacing\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+370 0 obj
+<</Subtype/Link
+/Rect[78 847 120 860]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 120 30 0]
+/StructParent 0>>
+endobj
+371 0 obj
+<</Length 375>>
+stream
+BT
+/F1 10 Tf
+78 830 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(centerUnits\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0560) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+372 0 obj
+<</Subtype/Link
+/Rect[78 827 144 840]
+/BS <</W 0>>
+/F 4
+/Dest[279 0 R /XYZ 120 30 0]
+/StructParent 0>>
+endobj
+373 0 obj
+<</Length 372>>
+stream
+BT
+/F1 10 Tf
+78 810 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\0567) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+374 0 obj
+<</Subtype/Link
+/Rect[78 807 150 820]
+/BS <</W 0>>
+/F 4
+/Dest[286 0 R /XYZ 120 880 0]
+/StructParent 0>>
+endobj
+297 0 obj
+<</Length 406>>
+stream
+BT
+/F1 10 Tf
+30 760 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(Introduction\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056\056III) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+298 0 obj
+<</Subtype/Link
+/Rect[30 757 102 770]
+/BS <</W 0>>
+/F 4
+/Dest[381 0 R /XYZ 0 891 0]
+/StructParent 0>>
+endobj
+9 0 obj
+<</Length 104>>
+stream
+BT
+/F3 30 Tf
+220 830 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(Script Reference) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 56 >>
+stream
+q
+20 0 0 20 50 767 cm
+/Im2 Do
+Q
+endstream
+endobj
+10 0 obj
+<</Length 112>>
+stream
+BT
+/F2 18 Tf
+75 770 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(FormationPositioner\056cs) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+11 0 obj
+<</Length 58>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+50 764 m
+1000 764 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+13 0 obj
+<</Length 97>>
+stream
+BT
+/F2 16 Tf
+80 715 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Namespaces) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+14 0 obj
+<</Length 58>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+80 709 m
+1000 709 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+15 0 obj
+<</Length 112>>
+stream
+BT
+/F1 16 Tf
+80 685 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+16 0 obj
+<</Length 58>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+80 679 m
+1000 679 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+17 0 obj
+<</Length 80>>
+stream
+0.8 0.8 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+80 643 490 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+18 0 obj
+<</Length 122>>
+stream
+BT
+/F1 10 Tf
+90 655 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(namespace TRavljen\056UnitFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+19 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+110 593 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Classes) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+20 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 587 m
+1000 587 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+21 0 obj
+<</Length 107>>
+stream
+BT
+/F1 16 Tf
+110 563 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(FormationPositioner) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+22 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 557 m
+1000 557 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+23 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+110 521 460 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+24 0 obj
+<</Length 120>>
+stream
+BT
+/F1 10 Tf
+120 533 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public class FormationPositioner) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+25 0 obj
+<</Length 190>>
+stream
+BT
+/F2 10 Tf
+120 501 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Class responsible for providing unit positions in formation on a target position facing the respective) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+26 0 obj
+<</Length 190>>
+stream
+BT
+/F2 10 Tf
+120 489 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(angle\056 Use method \047GetAlignedPositions\047 when you are manually calculating facing angle of the) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+27 0 obj
+<</Length 201>>
+stream
+BT
+/F2 10 Tf
+120 477 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(formation\056 Use method \047GetPositions\047 when you wish for angle calculation to be done manually\056 It will) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+28 0 obj
+<</Length 187>>
+stream
+BT
+/F2 10 Tf
+120 465 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(be calculated based on magnitude of the position change and the angle from units center position to) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+29 0 obj
+<</Length 115>>
+stream
+BT
+/F2 10 Tf
+120 453 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(the new target position\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+30 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+140 401 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Methods) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+31 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 395 m
+1000 395 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+32 0 obj
+<</Length 107>>
+stream
+BT
+/F1 13 Tf
+140 371 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(GetAlignedPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+33 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+140 365 m
+1000 365 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+34 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 281 430 75 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+35 0 obj
+<</Length 139>>
+stream
+BT
+/F1 10 Tf
+150 341 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public static List<Vector3> GetAlignedPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+36 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+180 329 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(int unitCount\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+37 0 obj
+<</Length 112>>
+stream
+BT
+/F1 10 Tf
+180 317 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(IFormation formation\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+38 0 obj
+<</Length 114>>
+stream
+BT
+/F1 10 Tf
+180 305 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Vector3 targetPosition\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+39 0 obj
+<</Length 109>>
+stream
+BT
+/F1 10 Tf
+180 293 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float targetAngle\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+40 0 obj
+<</Length 166>>
+stream
+BT
+/F2 10 Tf
+150 261 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Returns aligned units formation positions that are facing the passed angle\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+41 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+150 249 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+42 0 obj
+<</Length 134>>
+stream
+BT
+/F2 10 Tf
+150 237 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(unitCount\072 Amount of units in formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+43 0 obj
+<</Length 143>>
+stream
+BT
+/F2 10 Tf
+150 225 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(formation\072 Formation that units will position in\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+44 0 obj
+<</Length 136>>
+stream
+BT
+/F2 10 Tf
+150 213 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(targetPosition\072 Position of the formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+45 0 obj
+<</Length 138>>
+stream
+BT
+/F2 10 Tf
+150 201 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(targetAngle\072 Facing angle for the formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+46 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+150 189 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+47 0 obj
+<</Length 155>>
+stream
+BT
+/F2 10 Tf
+150 177 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Returns\072 Returns aligned positions of the units in formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+48 0 obj
+<</Length 100>>
+stream
+BT
+/F1 13 Tf
+140 850 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+49 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+140 844 m
+1000 844 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+50 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 760 430 75 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+51 0 obj
+<</Length 142>>
+stream
+BT
+/F1 10 Tf
+150 820 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public static UnitsFormationPositions GetPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+52 0 obj
+<</Length 122>>
+stream
+BT
+/F1 10 Tf
+180 808 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(List<Vector3> currentPositions\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+53 0 obj
+<</Length 112>>
+stream
+BT
+/F1 10 Tf
+180 796 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(IFormation formation\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+54 0 obj
+<</Length 114>>
+stream
+BT
+/F1 10 Tf
+180 784 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Vector3 targetPosition\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+55 0 obj
+<</Length 125>>
+stream
+BT
+/F1 10 Tf
+180 772 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float rotationThreshold = 4\0560f\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+56 0 obj
+<</Length 179>>
+stream
+BT
+/F2 10 Tf
+150 740 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Finds new positions for the passed positions and the formation\056 If distance from current) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+57 0 obj
+<</Length 187>>
+stream
+BT
+/F2 10 Tf
+150 728 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(positions center is less than rotation threshold\054 units formation will not be rotated around the) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+58 0 obj
+<</Length 185>>
+stream
+BT
+/F2 10 Tf
+150 716 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(target\056 New rotation angle is calculated from center position of all current positions and the) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+59 0 obj
+<</Length 108>>
+stream
+BT
+/F2 10 Tf
+150 704 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(target positions\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+60 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+150 692 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+61 0 obj
+<</Length 135>>
+stream
+BT
+/F2 10 Tf
+150 680 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(currentPositions\072 Current unit positions\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+62 0 obj
+<</Length 125>>
+stream
+BT
+/F2 10 Tf
+150 668 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(formation\072 Formation used on units) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+63 0 obj
+<</Length 152>>
+stream
+BT
+/F2 10 Tf
+150 656 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(targetPosition\072 Position to where the units will be moved\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+64 0 obj
+<</Length 184>>
+stream
+BT
+/F2 10 Tf
+150 644 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(rotationThreshold\072 Threshold used to specify when the unit formation should be rotated around) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+65 0 obj
+<</Length 121>>
+stream
+BT
+/F2 10 Tf
+150 632 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(target position \050pivot\051\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+66 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+150 620 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+67 0 obj
+<</Length 165>>
+stream
+BT
+/F2 10 Tf
+150 608 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Returns\072 Returns list of the new unit positions and their new facing angle) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+68 0 obj
+<</Length 111>>
+stream
+BT
+/F1 16 Tf
+110 576 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(UnitsFormationPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+69 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 570 m
+1000 570 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+70 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+110 534 460 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+71 0 obj
+<</Length 125>>
+stream
+BT
+/F1 10 Tf
+120 546 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public struct UnitsFormationPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+72 0 obj
+<</Length 167>>
+stream
+BT
+/F2 10 Tf
+120 514 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Data structure that represents the units new formation positions and angles\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+73 0 obj
+<</Length 100>>
+stream
+BT
+/F2 16 Tf
+140 462 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Constructors) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+74 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 456 m
+1000 456 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+75 0 obj
+<</Length 111>>
+stream
+BT
+/F1 13 Tf
+140 432 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(UnitsFormationPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+76 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+140 426 m
+1000 426 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+77 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 366 430 51 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+78 0 obj
+<</Length 123>>
+stream
+BT
+/F1 10 Tf
+150 402 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public  UnitsFormationPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+79 0 obj
+<</Length 119>>
+stream
+BT
+/F1 10 Tf
+180 390 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(List<Vector3> unitPositions\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+80 0 obj
+<</Length 111>>
+stream
+BT
+/F1 10 Tf
+180 378 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float finalRotation\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+81 0 obj
+<</Length 97>>
+stream
+BT
+/F2 16 Tf
+140 316 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Variables) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+82 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 310 m
+1000 310 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+83 0 obj
+<</Length 101>>
+stream
+BT
+/F1 13 Tf
+140 286 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(UnitPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+84 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+140 280 m
+1000 280 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+85 0 obj
+<</Length 81>>
+stream
+0.6 0.6 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 244 430 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+86 0 obj
+<</Length 122>>
+stream
+BT
+/F1 10 Tf
+150 256 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public List<Vector3> UnitPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+87 0 obj
+<</Length 156>>
+stream
+BT
+/F2 10 Tf
+150 224 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Specifies the new positions that units can move to new formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+88 0 obj
+<</Length 99>>
+stream
+BT
+/F1 13 Tf
+140 192 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(FacingAngle) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+89 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+140 186 m
+1000 186 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+90 0 obj
+<</Length 81>>
+stream
+0.6 0.6 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 150 430 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+91 0 obj
+<</Length 112>>
+stream
+BT
+/F1 10 Tf
+150 162 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public float FacingAngle) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+92 0 obj
+<</Length 171>>
+stream
+BT
+/F2 10 Tf
+150 130 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Specifies the units facing angle \050loot at direction\051 for the new position\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+95 0 obj
+<< /Length 56 >>
+stream
+q
+20 0 0 16 50 98 cm
+/Im1 Do
+Q
+endstream
+endobj
+93 0 obj
+<</Length 96>>
+stream
+BT
+/F2 20 Tf
+75 98 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+94 0 obj
+<</Length 47>>
+stream
+0 0 0 RG
+1 w
+50 92 m
+1000 92 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+98 0 obj
+<< /Length 56 >>
+stream
+q
+20 0 0 20 80 60 cm
+/Im2 Do
+Q
+endstream
+endobj
+96 0 obj
+<</Length 108>>
+stream
+BT
+/F2 18 Tf
+105 63 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(CircleFormation\056cs) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+97 0 obj
+<</Length 56>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+80 57 m
+1000 57 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+99 0 obj
+<</Length 98>>
+stream
+BT
+/F2 16 Tf
+110 830 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Namespaces) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+100 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 824 m
+1000 824 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+101 0 obj
+<</Length 127>>
+stream
+BT
+/F1 16 Tf
+110 800 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+102 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 794 m
+1000 794 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+103 0 obj
+<</Length 81>>
+stream
+0.8 0.8 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+110 758 460 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+104 0 obj
+<</Length 137>>
+stream
+BT
+/F1 10 Tf
+120 770 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(namespace TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+105 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+140 708 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Classes) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+106 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 702 m
+1000 702 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+107 0 obj
+<</Length 103>>
+stream
+BT
+/F1 16 Tf
+140 678 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(CircleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+108 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 672 m
+1000 672 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+109 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 636 430 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+110 0 obj
+<</Length 110>>
+stream
+BT
+/F1 10 Tf
+150 648 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(struct CircleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+111 0 obj
+<</Length 181>>
+stream
+BT
+/F2 10 Tf
+150 616 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Formation that positions units in a circle with specified angle and spacing between units\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+112 0 obj
+<</Length 100>>
+stream
+BT
+/F2 16 Tf
+170 564 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Constructors) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+113 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 558 m
+1000 558 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+114 0 obj
+<</Length 103>>
+stream
+BT
+/F1 13 Tf
+170 534 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(CircleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+115 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 528 m
+1000 528 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+116 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 468 400 51 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+117 0 obj
+<</Length 115>>
+stream
+BT
+/F1 10 Tf
+180 504 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public  CircleFormation\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+118 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 492 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float spacing\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+119 0 obj
+<</Length 116>>
+stream
+BT
+/F1 10 Tf
+210 480 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float circleAngle = 360f\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+120 0 obj
+<</Length 121>>
+stream
+BT
+/F2 10 Tf
+180 448 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Instantiates circle formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+121 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+180 436 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+122 0 obj
+<</Length 141>>
+stream
+BT
+/F2 10 Tf
+180 424 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(spacing\072 Specifies spacing between units in cricle) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+123 0 obj
+<</Length 183>>
+stream
+BT
+/F2 10 Tf
+180 412 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(circleAngle\072 Specifies angle for units to be placed\054 360 degree means that the units will) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+124 0 obj
+<</Length 176>>
+stream
+BT
+/F2 10 Tf
+180 400 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(go entire path around the circle and 180 degree angle means that only half of the circle) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+125 0 obj
+<</Length 106>>
+stream
+BT
+/F2 10 Tf
+180 388 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(will be formed\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+126 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+170 336 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Methods) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+127 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 330 m
+1000 330 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+128 0 obj
+<</Length 100>>
+stream
+BT
+/F1 13 Tf
+170 306 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+129 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 300 m
+1000 300 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+130 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 252 400 39 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+131 0 obj
+<</Length 125>>
+stream
+BT
+/F1 10 Tf
+180 276 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public List<Vector3> GetPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+132 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 264 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(int unitCount\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+135 0 obj
+<< /Length 56 >>
+stream
+q
+20 0 0 20 80 219 cm
+/Im2 Do
+Q
+endstream
+endobj
+133 0 obj
+<</Length 104>>
+stream
+BT
+/F2 18 Tf
+105 222 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(IFormation\056cs) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+134 0 obj
+<</Length 58>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+80 216 m
+1000 216 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+136 0 obj
+<</Length 98>>
+stream
+BT
+/F2 16 Tf
+110 167 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Namespaces) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+137 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 161 m
+1000 161 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+138 0 obj
+<</Length 127>>
+stream
+BT
+/F1 16 Tf
+110 137 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+139 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 131 m
+1000 131 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+140 0 obj
+<</Length 80>>
+stream
+0.8 0.8 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+110 95 460 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+141 0 obj
+<</Length 137>>
+stream
+BT
+/F1 10 Tf
+120 107 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(namespace TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+142 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+140 830 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Classes) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+143 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 824 m
+1000 824 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+144 0 obj
+<</Length 98>>
+stream
+BT
+/F1 16 Tf
+140 800 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(IFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+145 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 794 m
+1000 794 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+146 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 758 430 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+147 0 obj
+<</Length 115>>
+stream
+BT
+/F1 10 Tf
+150 770 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public interface IFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+148 0 obj
+<</Length 179>>
+stream
+BT
+/F2 10 Tf
+150 738 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Defines the contact that all formations must implement\056 Formation should be generated or) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+149 0 obj
+<</Length 146>>
+stream
+BT
+/F2 10 Tf
+150 726 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(provided on the fly by calling GetPositions\050int\051\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+150 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+170 674 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Methods) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+151 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 668 m
+1000 668 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+152 0 obj
+<</Length 100>>
+stream
+BT
+/F1 13 Tf
+170 644 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+153 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 638 m
+1000 638 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+154 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 590 400 39 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+155 0 obj
+<</Length 118>>
+stream
+BT
+/F1 10 Tf
+180 614 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(List<Vector3> GetPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+156 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 602 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(int unitCount\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+159 0 obj
+<< /Length 56 >>
+stream
+q
+20 0 0 20 80 557 cm
+/Im2 Do
+Q
+endstream
+endobj
+157 0 obj
+<</Length 107>>
+stream
+BT
+/F2 18 Tf
+105 560 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(LineFormation\056cs) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+158 0 obj
+<</Length 58>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+80 554 m
+1000 554 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+160 0 obj
+<</Length 98>>
+stream
+BT
+/F2 16 Tf
+110 505 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Namespaces) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+161 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 499 m
+1000 499 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+162 0 obj
+<</Length 127>>
+stream
+BT
+/F1 16 Tf
+110 475 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+163 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 469 m
+1000 469 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+164 0 obj
+<</Length 81>>
+stream
+0.8 0.8 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+110 433 460 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+165 0 obj
+<</Length 137>>
+stream
+BT
+/F1 10 Tf
+120 445 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(namespace TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+166 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+140 383 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Classes) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+167 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 377 m
+1000 377 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+168 0 obj
+<</Length 101>>
+stream
+BT
+/F1 16 Tf
+140 353 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(LineFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+169 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 347 m
+1000 347 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+170 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 311 430 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+171 0 obj
+<</Length 115>>
+stream
+BT
+/F1 10 Tf
+150 323 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public struct LineFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+172 0 obj
+<</Length 164>>
+stream
+BT
+/F2 10 Tf
+150 291 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Formation that positions units in a straight line with specified spacing\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+173 0 obj
+<</Length 100>>
+stream
+BT
+/F2 16 Tf
+170 239 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Constructors) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+174 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 233 m
+1000 233 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+175 0 obj
+<</Length 101>>
+stream
+BT
+/F1 13 Tf
+170 209 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(LineFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+176 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 203 m
+1000 203 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+177 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 155 400 39 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+178 0 obj
+<</Length 113>>
+stream
+BT
+/F1 10 Tf
+180 179 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public  LineFormation\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+179 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 167 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float spacing\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+180 0 obj
+<</Length 119>>
+stream
+BT
+/F2 10 Tf
+180 135 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Instantiates line formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+181 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+180 123 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+182 0 obj
+<</Length 135>>
+stream
+BT
+/F2 10 Tf
+180 111 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(spacing\072 Specifies spacing between units\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+183 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+170 830 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Methods) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+184 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 824 m
+1000 824 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+185 0 obj
+<</Length 100>>
+stream
+BT
+/F1 13 Tf
+170 800 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+186 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 794 m
+1000 794 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+187 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 746 400 39 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+188 0 obj
+<</Length 125>>
+stream
+BT
+/F1 10 Tf
+180 770 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public List<Vector3> GetPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+189 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 758 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(int unitCount\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+192 0 obj
+<< /Length 56 >>
+stream
+q
+20 0 0 20 80 713 cm
+/Im2 Do
+Q
+endstream
+endobj
+190 0 obj
+<</Length 112>>
+stream
+BT
+/F2 18 Tf
+105 716 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(RectangleFormation\056cs) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+191 0 obj
+<</Length 58>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+80 710 m
+1000 710 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+193 0 obj
+<</Length 98>>
+stream
+BT
+/F2 16 Tf
+110 661 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Namespaces) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+194 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 655 m
+1000 655 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+195 0 obj
+<</Length 127>>
+stream
+BT
+/F1 16 Tf
+110 631 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+196 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 625 m
+1000 625 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+197 0 obj
+<</Length 81>>
+stream
+0.8 0.8 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+110 589 460 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+198 0 obj
+<</Length 137>>
+stream
+BT
+/F1 10 Tf
+120 601 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(namespace TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+199 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+140 539 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Classes) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+200 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 533 m
+1000 533 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+201 0 obj
+<</Length 106>>
+stream
+BT
+/F1 16 Tf
+140 509 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(RectangleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+202 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 503 m
+1000 503 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+203 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 467 430 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+204 0 obj
+<</Length 120>>
+stream
+BT
+/F1 10 Tf
+150 479 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public struct RectangleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+205 0 obj
+<</Length 185>>
+stream
+BT
+/F2 10 Tf
+150 447 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Formation that positions units in a rectangle with specified spacing and maximal column count\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+206 0 obj
+<</Length 100>>
+stream
+BT
+/F2 16 Tf
+170 395 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Constructors) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+207 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 389 m
+1000 389 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+208 0 obj
+<</Length 106>>
+stream
+BT
+/F1 13 Tf
+170 365 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(RectangleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+209 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 359 m
+1000 359 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+210 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 287 400 63 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+211 0 obj
+<</Length 118>>
+stream
+BT
+/F1 10 Tf
+180 335 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public  RectangleFormation\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+212 0 obj
+<</Length 107>>
+stream
+BT
+/F1 10 Tf
+210 323 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(int columnCount\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+213 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 311 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float spacing\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+214 0 obj
+<</Length 115>>
+stream
+BT
+/F1 10 Tf
+210 299 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(bool centerUnits = true\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+215 0 obj
+<</Length 124>>
+stream
+BT
+/F2 10 Tf
+180 267 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Instantiates rectangle formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+216 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+180 255 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+217 0 obj
+<</Length 174>>
+stream
+BT
+/F2 10 Tf
+180 243 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(columnCount\072 Maximal number of columns per row \050there are less rows if number of) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+218 0 obj
+<</Length 129>>
+stream
+BT
+/F2 10 Tf
+180 231 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(units is smaller than this number\051\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+219 0 obj
+<</Length 135>>
+stream
+BT
+/F2 10 Tf
+180 219 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(spacing\072 Specifies spacing between units\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+220 0 obj
+<</Length 183>>
+stream
+BT
+/F2 10 Tf
+180 207 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(centerUnits\072 Specifies if units should be centered if they do not fill the full space of the) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+221 0 obj
+<</Length 95>>
+stream
+BT
+/F2 10 Tf
+180 195 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(row\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+222 0 obj
+<</Length 98>>
+stream
+BT
+/F2 16 Tf
+170 830 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Properties) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+223 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 824 m
+1000 824 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+224 0 obj
+<</Length 99>>
+stream
+BT
+/F1 13 Tf
+170 800 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(ColumnCount) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+225 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 794 m
+1000 794 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+226 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 746 400 39 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+227 0 obj
+<</Length 110>>
+stream
+BT
+/F1 10 Tf
+180 770 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public int ColumnCount) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+228 0 obj
+<</Length 96>>
+stream
+BT
+/F1 10 Tf
+210 758 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+({ get; }) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+229 0 obj
+<</Length 169>>
+stream
+BT
+/F2 10 Tf
+180 726 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Returns the column count which represents the max unit number in a single row\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+230 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+170 674 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Methods) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+231 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 668 m
+1000 668 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+232 0 obj
+<</Length 100>>
+stream
+BT
+/F1 13 Tf
+170 644 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+233 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 638 m
+1000 638 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+234 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 590 400 39 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+235 0 obj
+<</Length 125>>
+stream
+BT
+/F1 10 Tf
+180 614 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public List<Vector3> GetPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+236 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 602 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(int unitCount\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+239 0 obj
+<< /Length 56 >>
+stream
+q
+20 0 0 20 80 557 cm
+/Im2 Do
+Q
+endstream
+endobj
+237 0 obj
+<</Length 111>>
+stream
+BT
+/F2 18 Tf
+105 560 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TriangleFormation\056cs) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+238 0 obj
+<</Length 58>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+80 554 m
+1000 554 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+240 0 obj
+<</Length 98>>
+stream
+BT
+/F2 16 Tf
+110 505 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Namespaces) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+241 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 499 m
+1000 499 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+242 0 obj
+<</Length 127>>
+stream
+BT
+/F1 16 Tf
+110 475 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+243 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+110 469 m
+1000 469 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+244 0 obj
+<</Length 81>>
+stream
+0.8 0.8 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+110 433 460 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+245 0 obj
+<</Length 137>>
+stream
+BT
+/F1 10 Tf
+120 445 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(namespace TRavljen\056UnitFormation\056Formations) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+246 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+140 383 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Classes) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+247 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 377 m
+1000 377 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+248 0 obj
+<</Length 105>>
+stream
+BT
+/F1 16 Tf
+140 353 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TriangleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+249 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+140 347 m
+1000 347 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+250 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+140 311 430 27 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+251 0 obj
+<</Length 119>>
+stream
+BT
+/F1 10 Tf
+150 323 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public struct TriangleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+252 0 obj
+<</Length 159>>
+stream
+BT
+/F2 10 Tf
+150 291 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Formation that positions units in a triangle with specified spacing\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+253 0 obj
+<</Length 100>>
+stream
+BT
+/F2 16 Tf
+170 239 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Constructors) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+254 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 233 m
+1000 233 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+255 0 obj
+<</Length 105>>
+stream
+BT
+/F1 13 Tf
+170 209 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(TriangleFormation) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+256 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 203 m
+1000 203 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+257 0 obj
+<</Length 81>>
+stream
+0.8 0.6 0.8 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 143 400 51 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+258 0 obj
+<</Length 117>>
+stream
+BT
+/F1 10 Tf
+180 179 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public  TriangleFormation\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+259 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 167 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(float spacing\054) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+260 0 obj
+<</Length 115>>
+stream
+BT
+/F1 10 Tf
+210 155 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(bool centerUnits = true\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+261 0 obj
+<</Length 123>>
+stream
+BT
+/F2 10 Tf
+180 123 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Instantiates triangle formation\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+262 0 obj
+<</Length 88>>
+stream
+BT
+/F2 10 Tf
+180 111 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+() Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+263 0 obj
+<</Length 134>>
+stream
+BT
+/F2 10 Tf
+180 99 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(spacing\072 Specifies spacing between units\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+264 0 obj
+<</Length 182>>
+stream
+BT
+/F2 10 Tf
+180 87 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(centerUnits\072 Specifies if units should be centered if they do not fill the full space of the) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+265 0 obj
+<</Length 94>>
+stream
+BT
+/F2 10 Tf
+180 75 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(row\056) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+266 0 obj
+<</Length 95>>
+stream
+BT
+/F2 16 Tf
+170 830 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(Methods) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+267 0 obj
+<</Length 59>>
+stream
+0.3 0.3 0.3 RG
+0.85 w
+170 824 m
+1000 824 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+268 0 obj
+<</Length 100>>
+stream
+BT
+/F1 13 Tf
+170 800 Td
+2 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(GetPositions) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+269 0 obj
+<</Length 58>>
+stream
+0.6 0.6 0.6 RG
+0.7 w
+170 794 m
+1000 794 l S
+1 w
+0 0 0 RG
+endstream
+endobj
+270 0 obj
+<</Length 81>>
+stream
+0.6 0.8 0.6 rg
+0.5 0.5 0.5 RG
+0.5 w
+170 746 400 39 re B q
+0 0 0 rg
+0 0 0 RG
+1 w
+endstream
+endobj
+271 0 obj
+<</Length 125>>
+stream
+BT
+/F1 10 Tf
+180 770 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(public List<Vector3> GetPositions\050) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+272 0 obj
+<</Length 105>>
+stream
+BT
+/F1 10 Tf
+210 758 Td
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+(int unitCount\051) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+273 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(1) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+274 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(2) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+275 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(3) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+276 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(4) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+277 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(5) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+278 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(6) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+279 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(7) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+375 0 obj
+<</Length 87>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(I) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+376 0 obj
+<</Length 88>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(II) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+377 0 obj
+<</Length 89>>
+stream
+BT
+/F3 15 Tf
+40 40 Td
+0 Tr
+0 w
+0 0 0 RG
+0 0 0 rg
+(III) Tj
+0 Tr
+1 w
+0 0 0 RG
+0 0 0 rg
+ET
+endstream
+endobj
+xref 0 382
+trailer
+<<
+/Size 382
+/Root 1 0 R
+>>
+startxref
+%%EOF

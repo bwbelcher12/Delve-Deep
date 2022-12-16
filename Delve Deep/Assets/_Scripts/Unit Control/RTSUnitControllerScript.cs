@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class RTSUnitControllerScript: MonoBehaviour
 {
-    public NavMeshAgent _agent;
+    public NavMeshAgent agent;
 
     public bool inControlGroup;
 
@@ -15,13 +15,13 @@ public class RTSUnitControllerScript: MonoBehaviour
     private void Awake()
     {
         UnitSelectionManager = GameObject.Find("UnitSelectionManager");
-        _agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         baseColor = GetComponent<Renderer>().material.GetColor("_BaseColor");
     }
 
     public virtual void GoToTarget(Vector3 target)
     {
-        _agent.destination = target;
+        agent.destination = target;
 
     }
 

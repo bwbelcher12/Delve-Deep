@@ -31,7 +31,7 @@ public class MinerUnitController : RTSUnitControllerScript
 
     public override void GoToTarget(Vector3 target)
     {
-        _agent.destination = target;
+        agent.destination = target;
         if (destinationIsMiningNode.Equals(false))
         {
             targetNodes.Clear();
@@ -76,7 +76,7 @@ public class MinerUnitController : RTSUnitControllerScript
         else
         {
             targetNodes.Clear();
-
+            destinationIsMiningNode = false;
             return base.CheckHit(hit);
         }
        

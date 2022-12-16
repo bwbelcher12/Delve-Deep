@@ -27,9 +27,7 @@ public class MinerMiningController : MonoBehaviour
         //Check if unit has entered a minerPosition;
         if (unitController.targetNodes.Contains(other.GetComponent<MinerPosition>().parentNode).Equals(true))
         {
-            other.GetComponent<MinerPosition>().availiable = false;
             StartCoroutine(Mine(other.GetComponent<MinerPosition>().parentNode.GetComponent<MiningNode>()));
-            progressText.enabled = true;
         }
     }
 
@@ -45,6 +43,8 @@ public class MinerMiningController : MonoBehaviour
 
     IEnumerator Mine(MiningNode node)
     {
+        progressText.enabled = true;
+
         float time = 0;
 
         while (node.depleted.Equals(false))

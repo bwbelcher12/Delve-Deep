@@ -163,7 +163,7 @@ public class UnitSelectionManager: MonoBehaviour
 
 
 
-        RectangleFormation formation = new RectangleFormation((int)Math.Floor(Math.Sqrt(selectedUnits.Count)), unitSpacing, true); ;
+        RectangleFormation formation = new RectangleFormation((int)Math.Ceiling(Math.Sqrt(selectedUnits.Count)), unitSpacing, true); ;
 
         UnitsFormationPositions calculatedPositions = FormationPositioner.GetPositions(currentPositions, formation, hit.point);
 

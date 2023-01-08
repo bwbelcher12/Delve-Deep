@@ -8,8 +8,16 @@ using UnityEngine.AI;
 public class MinerUnitController : RTSUnitControllerScript
 {
     public List<GameObject> targetNodes;
-    private bool destinationIsMiningNode;
+    public bool destinationIsMiningNode;
     private Transform closestSpot;
+
+    private MinerMiningController miningController;
+
+    private void Start()
+    {
+        miningController = GetComponent<MinerMiningController>();
+    }
+
 
     public void SetCurrentTarget(GameObject node)
     {
@@ -19,6 +27,8 @@ public class MinerUnitController : RTSUnitControllerScript
         }
 
         targetNodes.Clear();
+        node.GetComponent<MiningNode>().miners.Remove(gameObject);
+
 
         targetNodes.Add(node);
         node.GetComponent<MiningNode>().miners.Add(gameObject);
@@ -32,53 +42,52 @@ public class MinerUnitController : RTSUnitControllerScript
     public override void GoToTarget(Vector3 target)
     {
         agent.destination = target;
+        
         if (destinationIsMiningNode.Equals(false))
         {
             targetNodes.Clear();
             closestSpot = transform;
+            miningController.StopAllCoroutines();
+            miningController.progressText.enabled = false;
         }
 
     }
 
     public override Vector3 CheckHit(RaycastHit hit)
     {
-        if (hit.collider.transform.CompareTag("MiningNode").Equals(true))
+
+        Vector3 returnSpot = transform.position;
+
+        if (targetNodes.Contains(hit.collider.transform.gameObject).Equals(true))
         {
-            destinationIsMiningNode = true;
-
-            SetCurrentTarget(hit.collider.transform.gameObject);
-
-            float distance = Mathf.Infinity;
-
-            Vector3 returnSpot = transform.position;
-            closestSpot = hit.collider.transform.GetComponent<MiningNode>().minerPositions.transform;
-
-            foreach(Transform miningSpot in hit.collider.transform.GetComponent<MiningNode>().minerPositions.transform)
-            {
-                //Exclude spot from loop if it is already taken
-                if (miningSpot.GetComponent<MinerPosition>().availiable == false)
-                {
-                    continue;
-                }
-
-                float tempDist = Vector3.Distance(miningSpot.position, transform.position);
-                if(tempDist < distance)
-                {
-                    distance = tempDist;
-                    returnSpot = miningSpot.position;
-                    closestSpot = miningSpot;
-                }
-            }
-            closestSpot.GetComponent<MinerPosition>().availiable = false;
-
             return returnSpot;
         }
-        else
+
+
+        destinationIsMiningNode = true;
+        SetCurrentTarget(hit.collider.transform.gameObject);
+
+        float distance = Mathf.Infinity;
+        closestSpot = hit.collider.transform.GetComponent<MiningNode>().minerPositions.transform;
+
+        foreach (Transform miningSpot in hit.collider.transform.GetComponent<MiningNode>().minerPositions.transform)
         {
-            targetNodes.Clear();
-            destinationIsMiningNode = false;
-            return base.CheckHit(hit);
+            //Exclude spot from loop if it is already taken
+            if (miningSpot.GetComponent<MinerPosition>().availiable == false)
+            {
+                continue;
+            }
+
+            float tempDist = Vector3.Distance(miningSpot.position, transform.position);
+            if (tempDist < distance)
+            {
+                distance = tempDist;
+                returnSpot = miningSpot.position;
+                closestSpot = miningSpot;
+            }
         }
-       
+        closestSpot.GetComponent<MinerPosition>().availiable = false;
+
+        return returnSpot;
     }
 }

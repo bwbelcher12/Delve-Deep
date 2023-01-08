@@ -6,10 +6,11 @@ public class RTSCameraController : MonoBehaviour
 {
     private float mouseX;
     private float mouseY;
-    private float cameraZoom = 8;
+    private float cameraZoom = 15;
     [SerializeField] private float cameraZoomSensitivity;
     [SerializeField] float minSize;
     [SerializeField] float maxSize;
+    [SerializeField] float cameraMoveSpeed;
 
     private GameObject tempAnchor;
     private Camera cam;
@@ -28,31 +29,9 @@ public class RTSCameraController : MonoBehaviour
 
         CameraZoom();
 
-        if(Input.GetMouseButtonDown(2).Equals(true))
-        {
-
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-            {
-                tempAnchor = new GameObject();
-                tempAnchor.transform.position = hit.point;
-                transform.parent = tempAnchor.transform;
-            }
-
-               
-        }
-
         if(Input.GetMouseButton(2).Equals(true))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-            {
-                tempAnchor.transform.position = hit.point;
-            }
+            transform.position += new Vector3(mouseX, 0, mouseY);
         }
 
         if (Input.GetMouseButtonUp(2).Equals(true))
@@ -61,6 +40,23 @@ public class RTSCameraController : MonoBehaviour
             Destroy(tempAnchor);
         }
         
+        if(Input.GetKey(KeyCode.W))
+        {
+            transform.position += new Vector3(0, 0, cameraMoveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.position += new Vector3(0, 0, -cameraMoveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.position += new Vector3(cameraMoveSpeed * Time.deltaTime, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.position += new Vector3(-cameraMoveSpeed * Time.deltaTime, 0, 0);
+        }
+
     }
 
     void CameraZoom()

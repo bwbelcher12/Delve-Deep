@@ -43,6 +43,7 @@ public class MiningNode : MonoBehaviour
             miner.GetComponent<MinerUnitController>().RemoveNode(gameObject);
             //ensure that there aren't any stragglers when node is destroyed
             miner.GetComponent<MinerMiningController>().StopAllCoroutines();
+            miner.GetComponent<MinerMiningController>().progressText.enabled = false;
         }
 
         float time = 0;

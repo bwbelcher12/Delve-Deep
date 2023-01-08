@@ -10,11 +10,9 @@ public class RTSUnitControllerScript: MonoBehaviour
     public bool inControlGroup;
 
     public Color baseColor;
-    private GameObject UnitSelectionManager;
 
     private void Awake()
     {
-        UnitSelectionManager = GameObject.Find("UnitSelectionManager");
         agent = GetComponent<NavMeshAgent>();
         baseColor = GetComponent<Renderer>().material.GetColor("_BaseColor");
     }

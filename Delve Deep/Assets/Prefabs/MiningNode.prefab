@@ -396,8 +396,9 @@ GameObject:
   - component: {fileID: 5112898565106992075}
   - component: {fileID: 5215964513832407011}
   - component: {fileID: 7728240003276156718}
+  - component: {fileID: 5059383845580666270}
   m_Layer: 0
-  m_Name: Unit Position 8
+  m_Name: Unit Position 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,6 +447,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &5059383845580666270
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283836923465467406}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2587165605783071574
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,8 +737,9 @@ GameObject:
   - component: {fileID: 8840190249198493102}
   - component: {fileID: 3811313675497531627}
   - component: {fileID: 3814182247757282773}
+  - component: {fileID: 3126721498100774815}
   m_Layer: 0
-  m_Name: Unit Position 6
+  m_Name: Unit Position 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -770,6 +788,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &3126721498100774815
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2852384131330224757}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3030088401309964298
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,8 +893,9 @@ GameObject:
   - component: {fileID: 7339202083990910294}
   - component: {fileID: 3726450836205715158}
   - component: {fileID: 665272145025580553}
+  - component: {fileID: 8696132761032985074}
   m_Layer: 0
-  m_Name: Unit Position 2
+  m_Name: Unit Position 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -909,6 +944,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &8696132761032985074
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3175059476569115798}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3348286497950160591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,8 +1262,9 @@ GameObject:
   - component: {fileID: 8548546720489331765}
   - component: {fileID: 6886257057101899458}
   - component: {fileID: 1916850307465808672}
+  - component: {fileID: 7153720385177972747}
   m_Layer: 0
-  m_Name: Unit Position 3
+  m_Name: Unit Position 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1261,6 +1313,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &7153720385177972747
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664283296279822663}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3694808839983611585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,8 +1340,9 @@ GameObject:
   - component: {fileID: 8245436418447907892}
   - component: {fileID: 297689785820019003}
   - component: {fileID: 7964391542604290993}
+  - component: {fileID: 7589530714986531158}
   m_Layer: 0
-  m_Name: Unit Position 1
+  m_Name: Unit Position 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1322,6 +1391,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &7589530714986531158
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3694808839983611585}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3860280600052678428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,8 +1981,9 @@ GameObject:
   - component: {fileID: 987812164570799084}
   - component: {fileID: 4548044096579442512}
   - component: {fileID: 8769352117822167467}
+  - component: {fileID: 670653486748949056}
   m_Layer: 0
-  m_Name: Unit Position 5
+  m_Name: Unit Position 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1946,6 +2032,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &670653486748949056
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5714169255326991700}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5733860089869939703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,8 +2584,9 @@ GameObject:
   - component: {fileID: 4404033206026648270}
   - component: {fileID: 6636353972481249498}
   - component: {fileID: 2488451136694609866}
+  - component: {fileID: 4337183694613010859}
   m_Layer: 0
-  m_Name: Unit Position 4
+  m_Name: Unit Position 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2532,6 +2635,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &4337183694613010859
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6589294394320847875}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6683231190341185968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,8 +2759,9 @@ GameObject:
   - component: {fileID: 4184425687604762429}
   - component: {fileID: 747796276211742298}
   - component: {fileID: 7334827475995124545}
+  - component: {fileID: 5796967367895956756}
   m_Layer: 0
-  m_Name: Unit Position 7
+  m_Name: Unit Position 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2690,6 +2810,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availiable: 0
   parentNode: {fileID: 0}
+--- !u!54 &5796967367895956756
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7050426440013757253}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7099516041606649721
 GameObject:
   m_ObjectHideFlags: 0

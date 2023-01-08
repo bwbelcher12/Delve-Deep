@@ -12,7 +12,7 @@ public class MinerMiningController : MonoBehaviour
     [SerializeField] private TMPro.TMP_Text hoverTextPrefab;
     [SerializeField] private Canvas uiCanvas;
 
-    private TMPro.TMP_Text progressText;
+    public TMPro.TMP_Text progressText;
     private MinerUnitController unitController;
 
     private void Awake()

@@ -148,11 +148,11 @@ public class UnitSelectionManager: MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
-            StartCoroutine(QueueGoToTarget(hit));
+            QueueGoToTarget(hit);
         }
     }
 
-    IEnumerator QueueGoToTarget(RaycastHit hit)
+    private void QueueGoToTarget(RaycastHit hit)
     {
         List<Vector3> currentPositions = new();
 
@@ -170,7 +170,25 @@ public class UnitSelectionManager: MonoBehaviour
         int i = 0;
         foreach (GameObject unit in selectedUnits.ToArray())
         {
+            if(unit.GetComponent<MinerMiningController>() is not null)
+            {
+                MinerUnitController minerController = unit.GetComponent<MinerUnitController>();
+                if (hit.collider.transform.CompareTag("Ground").Equals(false))
+                {
+                    minerController.GoToTarget(minerController.CheckHit(hit));
+                }
+                else
+                {
+                    minerController.targetNodes.Clear();
+                    minerController.destinationIsMiningNode = false;
+                    minerController.GoToTarget(calculatedPositions.UnitPositions[i]);
+                }
+                i++;
+                continue;
+            }
+
             RTSUnitControllerScript rtsController = unit.GetComponent<RTSUnitControllerScript>();
+
             if (hit.collider.transform.CompareTag("Ground").Equals(false))
             {
                 rtsController.GoToTarget(rtsController.CheckHit(hit));
@@ -180,7 +198,7 @@ public class UnitSelectionManager: MonoBehaviour
                 rtsController.GoToTarget(calculatedPositions.UnitPositions[i]);
             }
             i++;
-            yield return null;
+            //yield return null;
         }
     }
 

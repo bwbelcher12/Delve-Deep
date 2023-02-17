@@ -27,11 +27,11 @@ public class MinerUnitController : RTSUnitControllerScript
         }
 
         targetNodes.Clear();
-        node.GetComponent<MiningNode>().miners.Remove(gameObject);
+        node.GetComponent<MiningNode>().miner = gameObject;
 
 
         targetNodes.Add(node);
-        node.GetComponent<MiningNode>().miners.Add(gameObject);
+        node.GetComponent<MiningNode>().miner = gameObject;
     }
 
     public void RemoveNode(GameObject node)

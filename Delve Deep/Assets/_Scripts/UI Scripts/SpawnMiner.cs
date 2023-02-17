@@ -8,6 +8,8 @@ public class SpawnMiner : MonoBehaviour
 
     public void SpawnNewMiner()
     {
-        GameObject node = Instantiate(_miner, new Vector3(0, .6f, 0), Quaternion.identity);
+        Vector3 SpawnPoint = new Vector3(GameObject.Find("World Generator").GetComponent<WorldGen>().entryPoint.x, .6f, GameObject.Find("World Generator").GetComponent<WorldGen>().entryPoint.y);
+
+        GameObject miner = Instantiate(_miner, SpawnPoint, Quaternion.identity);
     }
 }

@@ -12,8 +12,9 @@ public class RTSCameraController : MonoBehaviour
     [SerializeField] float maxSize;
     [SerializeField] float cameraMoveSpeed;
 
-    private GameObject tempAnchor;
+    private Vector3 tempAnchor;
     private Camera cam;
+    private Plane movePlane;
 
     // Start is called before the first frame update
     void Awake()
@@ -29,16 +30,7 @@ public class RTSCameraController : MonoBehaviour
 
         CameraZoom();
 
-        if(Input.GetMouseButton(2).Equals(true))
-        {
-            transform.position += new Vector3(mouseX, 0, mouseY);
-        }
-
-        if (Input.GetMouseButtonUp(2).Equals(true))
-        {
-            transform.parent = null;
-            Destroy(tempAnchor);
-        }
+        CameraMove();
         
         if(Input.GetKey(KeyCode.W))
         {
@@ -57,6 +49,57 @@ public class RTSCameraController : MonoBehaviour
             transform.position += new Vector3(-cameraMoveSpeed * Time.deltaTime, 0, 0);
         }
 
+    }
+
+    void CameraMove()
+    {
+        if(Input.GetMouseButtonDown(2).Equals(true))
+        {
+            movePlane = new Plane(Vector3.up, Vector3.up);
+
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+
+            //Initialise the enter variable
+            float enter = 0.0f;
+
+            if (movePlane.Raycast(ray, out enter))
+            {
+                //Get the point that is clicked
+                Vector3 hitPoint = ray.GetPoint(enter);
+
+                //Move your cube GameObject to the point where you clicked
+                tempAnchor = hitPoint;
+            }
+        }
+
+        if (Input.GetMouseButton(2).Equals(true))
+        {
+            Vector3 offset = new();
+
+            movePlane = new Plane(Vector3.up, Vector3.up);
+
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            //Initialise the enter variable
+            float enter = 0.0f;
+
+            if (movePlane.Raycast(ray, out enter))
+            {
+                //Get the point that is clicked
+                Vector3 hitPoint = ray.GetPoint(enter);
+
+                //Move your cube GameObject to the point where you clicked
+                offset = tempAnchor - hitPoint;
+            }
+
+            transform.position += offset;
+        }
+
+        if (Input.GetMouseButtonUp(2).Equals(true))
+        {
+         
+        }
     }
 
     void CameraZoom()

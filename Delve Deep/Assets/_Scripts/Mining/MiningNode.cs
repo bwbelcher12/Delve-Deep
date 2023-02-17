@@ -8,17 +8,15 @@ public class MiningNode : MonoBehaviour
     public string mineralType;
     public float mineralValue;
     public int resourceAmount;
-    public float baseMiningTime;
+    public float miningSpeedMultiplier;
 
-    private MeshRenderer _mineralMesh;
     public bool depleted;
     public GameObject minerPositions;
 
-    public List<GameObject> miners;
+    public GameObject miner;
 
     void Awake()
     {
-        _mineralMesh = transform.Find("Cone").GetComponent<MeshRenderer>();
     }
 
     private void Update()
@@ -32,27 +30,18 @@ public class MiningNode : MonoBehaviour
 
     private void FullyMined()
     {
-        _mineralMesh.enabled = false;
-       
-        StartCoroutine(Cleanup());
+        Cleanup();
     }
-    IEnumerator Cleanup()
+    private void Cleanup()
     {
-        foreach (GameObject miner in miners.ToArray())
-        {
-            miner.GetComponent<MinerUnitController>().RemoveNode(gameObject);
-            //ensure that there aren't any stragglers when node is destroyed
-            miner.GetComponent<MinerMiningController>().StopAllCoroutines();
-            miner.GetComponent<MinerMiningController>().progressText.enabled = false;
-        }
+ 
+        miner.GetComponent<MinerUnitController>().RemoveNode(gameObject);
+        //Ensure that there aren't any stragglers when node is destroyed
+        miner.GetComponent<MinerMiningController>().StopAllCoroutines();
+        miner.GetComponent<MinerMiningController>().progressText.enabled = false;
+        
 
-        float time = 0;
-        while(time < 2)
-        {
-            time += Time.deltaTime;
-            yield return null;
-        }
-
+        
         Destroy(this.gameObject);
     }
 }

@@ -14,7 +14,7 @@ public class SpawnNode : MonoBehaviour
 
         nodeInfo.mineralType = "Ruby";
         nodeInfo.mineralValue = 15f;
-        nodeInfo.baseMiningTime = 5;
+        nodeInfo.miningSpeedMultiplier = 5;
         nodeInfo.resourceAmount = 100;
 
     }
